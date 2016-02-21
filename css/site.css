@@ -71,6 +71,7 @@ body {
 	margin: 0;
 	padding: 0.5em 0 0.5em 0;
 	text-align: center;
+	border-bottom: 2px solid #E64A19;
 }
 
 #intro > h1 {
