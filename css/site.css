@@ -20,6 +20,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+}
+
 /*****************
  **** COLORS *****
  *****************/
@@ -29,6 +33,7 @@ body {
 .light-primary-color   { background: #FFCCBC; }
 .text-primary-color    { color: #FFFFFF; }
 .accent-color          { background: #607D8B; }
+.accent-font-color     { color: #607D8B; }
 .primary-text-color    { color: #212121; }
 .secondary-text-color  { color: #727272; }
 .divider-color         { border-color: #B6B6B6; }
@@ -71,7 +76,7 @@ body {
 	margin: 0;
 	padding: 0.5em 0 0.5em 0;
 	text-align: center;
-	border-bottom: 2px solid #E64A19;
+	border-bottom: 4px solid #E64A19;
 }
 
 #intro > h1 {
@@ -83,6 +88,10 @@ body {
  *****************/
 #main-content {
 	text-align: center;
+}
+
+.icon-link {
+	font-size: 3em;
 }
 
 /*****************
