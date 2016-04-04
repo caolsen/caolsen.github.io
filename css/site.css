@@ -118,6 +118,12 @@ li {
 	}
 }
 
+@media only screen and (max-width:768px) {
+	#about-me {
+		text-align: center;
+	}
+}
+
 #links {
 	text-align: center;
 }
